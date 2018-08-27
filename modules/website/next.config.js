@@ -3,6 +3,20 @@ const withTM = require('next-plugin-transpile-modules');
 
 module.exports = withTypescript(
   withTM({
-    transpileModules: ['shared']
+    transpileModules: ['shared'],
+    webpack(config, options) {
+      if (options.isServer && options.dev) {
+        const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+
+        config.plugins.push(
+          new ForkTsCheckerWebpackPlugin({
+            tsconfig: '../../tsconfig.json',
+            tslint: '../../tslint.json',
+          }),
+        );
+      }
+
+      return config;
+    },
   })
 );
