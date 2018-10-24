@@ -5,12 +5,6 @@ module.exports = withTypescript(
   withTM({
     transpileModules: ['shared'],
     webpack(config, options) {
-      console.log('TEST YES', options.defaultLoaders.babel.options);
-
-      options.defaultLoaders.babel.options.presets = [
-        '@zeit/next-typescript/babel'
-      ];
-
       if (options.isServer && options.dev) {
         const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
