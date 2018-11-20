@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "nodemon server/index.ts",
-    "build": "next build && tsc --project tsconfig.server.json",
+    "build": "next build && ../node_modules/.bin/tsc --project tsconfig.server.json",
     "start": "NODE_ENV=production node .next/production-server/server/index.js"
   },
   "dependencies": {
@@ -23,7 +23,6 @@
     "@types/next": "7.0.3",
     "@types/react": "16.4.18",
     "fork-ts-checker-webpack-plugin": "0.4.11",
-    "ts-node": "7.0.1",
-    "typescript": "3.1.6"
+    "ts-node": "7.0.1"
   }
 }
