@@ -25,9 +25,9 @@ The config is at the root.
 
 Use the config you want in `<root>/tslint.json`. The default uses semistandard.
 
-### "Modules"
+### Root folder
 
-Put everything you want there, a Next app, shared code, a react-native app, a CRA...
+Put everything you want there, a Next app, shared code, a react-native app, a CRA, even a Wordpress app if you want.
 
 ### To-do
 
