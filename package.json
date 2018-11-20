@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest"
   },
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@types/jest": "23.3.7",
+    "@types/jest": "23.3.9",
     "jest": "23.6.0",
     "tslint": "5.11.0",
     "tslint-config-semistandard": "7.0.0",
     "ts-jest": "23.10.4",
-    "typescript": "3.1.3"
+    "typescript": "3.1.6"
   }
 }
