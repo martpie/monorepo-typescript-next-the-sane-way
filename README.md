@@ -3,6 +3,7 @@
 This repo is an experiment to set-up a monorepo using TypeScript and some shared config. Everything is not perfect and "real-world" ready, but it should be a good first step.
 
 - **Strict TypeScript**: potential bugs are not an option
+- **Transpiled server-side code**: needed if you are going to re-use modules for both client and server-side
 - **Jest** support
 - **One TypeScript config to rule them all**: consistency first
 - **One TSLint config to rule them all**: no need to be masochist
@@ -31,7 +32,6 @@ Put everything you want there, a Next app, shared code, a react-native app, a CR
 
 ### To-do
 
-- [ ] Custom Express server using TypeScript (toughest one)
 - [ ] Different Types definitions per projects: a definition Type for a website may not be shared with a react-native app for example (global types are currently shared across modules)
 - ...
 
