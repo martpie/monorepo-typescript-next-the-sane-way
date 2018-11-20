@@ -10,8 +10,8 @@ module.exports = withTypescript(
 
         config.plugins.push(
           new ForkTsCheckerWebpackPlugin({
-            tsconfig: '../../tsconfig.json',
-            tslint: '../../tslint.json',
+            tsconfig: '../tsconfig.json',
+            tslint: '../tslint.json',
           }),
         );
       }
