@@ -12,17 +12,17 @@
   },
   "dependencies": {
     "@zeit/next-typescript": "1.1.1",
-    "next": "8.0.0",
+    "next": "8.0.2",
     "next-compose-plugins": "2.1.1",
     "next-transpile-modules": "2.0.0",
     "nodemon": "1.18.10",
-    "react": "16.8.1",
-    "react-dom": "16.8.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
     "shared": "file:../shared"
   },
   "devDependencies": {
-    "@types/next": "7.0.9",
-    "@types/react": "16.8.2",
+    "@types/next": "8.0.1",
+    "@types/react": "16.8.4",
     "fork-ts-checker-webpack-plugin": "0.5.2",
     "ts-node": "7.0.1"
   }
