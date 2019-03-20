@@ -2,9 +2,8 @@
   "name": "next-ts-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "private": true,
+  "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "scripts": {
     "dev": "nodemon server/index.ts",
     "build": "next build && ../node_modules/.bin/tsc --project tsconfig.server.json",
