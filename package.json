@@ -4,7 +4,8 @@
   "description": "A monorepo example for Next.js and TypeScript",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test:unit": "jest",
+    "lint:ts": "tslint -p tsconfig.json -t stylish"
   },
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "license": "MIT",
