@@ -1,8 +1,7 @@
 {
   "name": "monorepo-ts",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A monorepo example for Next.js and TypeScript",
   "private": true,
   "scripts": {
     "test": "jest"
@@ -10,11 +9,11 @@
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "23.3.9",
-    "jest": "23.6.0",
-    "tslint": "5.11.0",
+    "@types/jest": "24.0.11",
+    "jest": "24.5.0",
+    "tslint": "5.14.0",
     "tslint-config-semistandard": "7.0.0",
-    "ts-jest": "23.10.5",
-    "typescript": "3.1.6"
+    "ts-jest": "24.0.0",
+    "typescript": "3.3.4000"
   }
 }
