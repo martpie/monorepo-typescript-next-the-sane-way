@@ -25,8 +25,7 @@ app
 
       return nextHandler(req, res, parsedUrl);
     })
-      .listen(port, (err: Error) => {
-        if (err) throw new Error(`[ERROR] Error when creating the HTTP server:\n${err}`);
+      .listen(port, () => {
         console.log(`> Ready on http://localhost:${port}`);
       });
   })
