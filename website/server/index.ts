@@ -15,7 +15,7 @@ const nextHandler = app.getRequestHandler();
 app
   .prepare()
   .then(() => {
-    createServer((req, res) => {
+    const server = createServer((req, res) => {
       if (!req.url) {
         console.warn(`[WARN] No url found in request:\n${req.headers}`);
         return;
@@ -24,10 +24,13 @@ app
       const parsedUrl = parse(req.url, true);
 
       return nextHandler(req, res, parsedUrl);
-    })
-      .listen(port, () => {
-        console.log(`> Ready on http://localhost:${port}`);
-      });
+    });
+
+    server.on('error', console.error);
+
+    server.listen(port, () => {
+      console.log(`> Ready on http://localhost:${port}`);
+    });
   })
   .catch((err: Error) => {
     console.log(`[ERROR] Error when preparing Next:\n${err}`);
