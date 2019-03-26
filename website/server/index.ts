@@ -29,9 +29,8 @@ app
     server.on('error', console.error);
 
     server.listen(port, () => {
-      console.log(`> Ready on http://localhost:${port}`);
+      console.log(`[INFO] Ready on http://localhost:${port}`);
     });
-  })
-  .catch((err: Error) => {
+  }).catch((err: Error) => {
     console.log(`[ERROR] Error when preparing Next:\n${err}`);
   });

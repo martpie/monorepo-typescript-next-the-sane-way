@@ -1,8 +1,0 @@
-{
-  "watch": [
-    "server/**/*.ts"
-  ],
-  "execMap": {
-    "ts": "ts-node --files --compiler-options \"{\\\"module\\\":\\\"commonjs\\\", \\\"typeRoots\\\": [\\\"./node_modules/@types\\\", \\\"./typings/definitions\\\"]}\" --project ../tsconfig.json server/index.ts"
-  }
-}
