@@ -7,10 +7,11 @@
   "scripts": {
     "dev": "nodemon server/index.ts",
     "build": "next build && ../node_modules/.bin/tsc --project tsconfig.server.json",
-    "start": "NODE_ENV=production node .next/production-server/server/index.js"
+    "start": "cross-env NODE_ENV=production node .next/production-server/server/index.js"
   },
   "dependencies": {
     "@zeit/next-typescript": "1.1.1",
+    "cross-env": "5.2.0",
     "next": "8.1.0",
     "next-compose-plugins": "2.2.0",
     "next-transpile-modules": "2.3.1",
