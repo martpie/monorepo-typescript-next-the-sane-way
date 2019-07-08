@@ -1,16 +1,13 @@
 {
-  "extends": "../tsconfig.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "module": "commonjs",
     "outDir": ".next/production-server/",
     "skipLibCheck": true,
-    "rootDir": "."
+    "rootDir": ".",
+    "esModuleInterop": true
   },
-  "include": [
-    "server/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["server/**/*.ts"],
+  "exclude": ["node_modules"]
 }

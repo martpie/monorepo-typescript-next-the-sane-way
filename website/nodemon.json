@@ -1,6 +1,6 @@
 {
   "watch": ["server/**/*.ts", "next.config.js"],
   "execMap": {
-    "ts": "ts-node --files --compiler-options \"{\\\"module\\\":\\\"commonjs\\\" }\" --project ../tsconfig.json server/index.ts"
+    "ts": "ts-node --files --compiler-options \"{\\\"module\\\":\\\"commonjs\\\" }\" --project ./tsconfig.json server/index.ts"
   }
 }

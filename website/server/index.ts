@@ -1,6 +1,6 @@
 import { createServer } from 'http';
 import { parse } from 'url';
-import * as next from 'next';
+import next from 'next';
 
 // A couple of warnings/info
 if (!process.env.PORT) {

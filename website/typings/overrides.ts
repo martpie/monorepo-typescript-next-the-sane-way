@@ -3,3 +3,5 @@
  * you want to not override lib definitions and create additional typings, you
  * can do it here.
  */
+
+export default null;

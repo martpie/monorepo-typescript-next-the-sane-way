@@ -4,5 +4,13 @@
   "description": "",
   "main": "index.js",
   "private": true,
-  "author": ""
+  "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
+  "scripts": {
+    "test:unit": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.15",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2"
+  }
 }
