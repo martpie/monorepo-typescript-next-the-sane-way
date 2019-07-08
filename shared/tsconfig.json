@@ -12,7 +12,7 @@
     "sourceMap": true,
     "strict": true,
     "baseUrl": ".",
-    "typeRoots": ["./node_modules/@types/", "**/types/**/*.d.ts"],
+    "typeRoots": ["./node_modules/@types/", "**/typings/**/*.d.ts"],
     "noErrorTruncation": true,
     "lib": ["dom", "es2015", "es2016", "es2017.object"],
     "esModuleInterop": true
