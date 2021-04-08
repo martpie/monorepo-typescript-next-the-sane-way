@@ -1,5 +1,7 @@
 # Monorepo + TypeScript + Next.js: The Sane Way
 
+**Update 08/04/2021**: I haven't updated this repo in a while, it's outdated in many ways.
+
 This repo is an experiment to set-up a monorepo for a Next.js project using modules located in other directories. Everything is not perfect and "real-world" ready, but it should be a good first step.
 
 - **Strict TypeScript**: potential bugs are not an option
