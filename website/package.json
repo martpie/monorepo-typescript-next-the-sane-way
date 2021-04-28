@@ -1,30 +1,27 @@
 {
-  "name": "next-ts-website",
+  "name": "website",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "scripts": {
     "test:unit": "jest",
-    "dev": "nodemon server/index.ts",
-    "build": "next build && ../node_modules/.bin/tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node .next/production-server/server/index.js"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "cross-env": "5.2.0",
-    "next": "9.0.0",
-    "next-transpile-modules": "2.3.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "shared": "file:../shared"
+    "next": "10.2.0",
+    "next-transpile-modules": "7.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "shared": "1.0.0"
   },
   "devDependencies": {
-    "@types/jest": "24.0.15",
-    "@types/next": "8.0.5",
-    "@types/react": "16.8.23",
-    "jest": "24.8.0",
-    "nodemon": "1.19.1",
-    "ts-node": "8.3.0",
-    "typescript": "3.5.2"
+    "@types/jest": "26.0.23",
+    "@types/next": "9.0.0",
+    "@types/react": "17.0.4",
+    "jest": "26.6.3",
+    "typescript": "4.2.4"
   }
 }

@@ -2,15 +2,15 @@
   "name": "shared",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "utils/calc.ts",
   "private": true,
   "author": "Pierre de la Martinière <pierre.de.la.martiniere@gmail.com>",
   "scripts": {
     "test:unit": "jest"
   },
   "devDependencies": {
-    "@types/jest": "24.0.15",
-    "jest": "24.8.0",
-    "ts-jest": "24.0.2"
+    "@types/jest": "26.0.23",
+    "jest": "26.6.3",
+    "ts-jest": "26.5.5"
   }
 }

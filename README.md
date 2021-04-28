@@ -1,25 +1,21 @@
 # Monorepo + TypeScript + Next.js: The Sane Way
 
-**Update 08/04/2021**: I haven't updated this repo in a while, it's outdated in many ways. But it should still give you a rough idea of how to set things up :)
-
 This repo is an experiment to set-up a monorepo for a Next.js project using modules located in other directories. Everything is not perfect and "real-world" ready, but it should be a good first step.
 
 - **Strict TypeScript**: potential bugs are not an option
-- **Transpiled server-side code**: needed if you are going to re-use modules for both client and server-side
+- ~~**Transpiled server-side code**: needed if you are going to re-use modules for both client and server-side~~ Not anymore, Next.js is plenty powerful now and does not need it anymore in 99% of the cases
 - **Jest** support
-- **One TypeScript config to rule them all**: consistency first
-- **One TSLint config to rule them all**: no need to be masochist
-- **One Jest config to rule them all**: keep things sane (you can filter tests by Regex anyway)
-- **Transpile local modules** with Next.js on-demand
+- **TypeScript**
+- **TSLint**
+- **Jest**
+- **Transpile local modules** with Next.js on-demand + HMR
 
-## Warning
-
-Since d7655cf00a59ba358c90c5688f4e793f7eca69e2, the approach completely changed. After a couple of projects, I realised the previous approach of having common configuration files is a bad practice:
+My approach completely changed after a couple of projects, I realised the previous approach of having common configuration files was a bad practice:
 
 - Not a true monorepo where every subfolder is a separate app
 - Difficult to deploy and test on CI
 
-Now, configuration files are repeated in each sub-folders, which means you need to be careful regarding config and dependencies versions.
+Now, configuration files are repeated in each sub-folders, which means you need to be more careful regarding config and dependencies versions, but things are much easier to manage for developers and text editors.
 
 ## More in details
 
