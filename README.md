@@ -4,10 +4,9 @@ This repo is an experiment to set-up a monorepo for a Next.js project using modu
 
 - **Strict TypeScript**: potential bugs are not an option
 - ~~**Transpiled server-side code**: needed if you are going to re-use modules for both client and server-side~~ Not anymore, Next.js is plenty powerful now and does not need it anymore in 99% of the cases
-- **Jest** support
+- **Jest**
 - **TypeScript**
 - **TSLint**
-- **Jest**
 - **Transpile local modules** with Next.js on-demand + HMR
 
 My approach completely changed after a couple of projects, I realised the previous approach of having common configuration files was a bad practice:
