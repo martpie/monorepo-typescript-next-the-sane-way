@@ -1,5 +1,5 @@
 {
-  "name": "monorepo-typescript-next-the-sane-way",
+  "name": "@wh/monorepo-typescript-next-the-sane-way",
   "private": true,
   "workspaces": [
     "shared",
