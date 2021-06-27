@@ -6,9 +6,9 @@ This repo is an experiment to set-up a monorepo for a Next.js project using modu
 - ~~**Transpiled server-side code**: needed if you are going to re-use modules for both client and server-side~~ Not anymore, Next.js is plenty powerful now and does not need it anymore in 99% of the cases
 - **Jest** support
 - **TypeScript**
-- **TSLint**
+- **ESLint** (now included in Next.js 10)
 - **Jest**
-- **Transpile local modules** with Next.js on-demand + HMR
+- **Transpile local packages** with Next.js on-demand + HMR
 
 My approach completely changed after a couple of projects, I realised the previous approach of having common configuration files was a bad practice:
 
@@ -31,7 +31,7 @@ The config is at the root of each project: `<root>/<sub-project>/jest.config.js`
 
 ### Linting
 
-TODO (TSLint was dropped, I need to add ESLint again).
+`npm run test:lint`
 
 ### Root folder
 

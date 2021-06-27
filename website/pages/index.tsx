@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Calc from '../../shared/utils/calc';
 
-export default () => {
+const HomePage = () => {
   return (
     <>
       <div>Hello World</div>
@@ -9,3 +9,5 @@ export default () => {
     </>
   );
 };
+
+export default HomePage;
