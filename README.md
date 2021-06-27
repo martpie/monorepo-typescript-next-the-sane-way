@@ -17,6 +17,11 @@ My approach completely changed after a couple of projects, I realised the previo
 
 Now, configuration files are repeated in each sub-folders, which means you need to be more careful regarding config and dependencies versions, but things are much easier to manage for developers and text editors.
 
+## Todos
+
+- [ ] GitHub actions sample
+- [ ] ESLint + Jest everywhere
+
 ## More in details
 
 ### TypeScript
