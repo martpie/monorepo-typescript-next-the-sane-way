@@ -7,7 +7,6 @@ This repo is an experiment to set-up a monorepo for a Next.js project using modu
 - **Jest**
 - **TypeScript**
 - **ESLint** (now included in Next.js 10)
-- **Jest**
 - **Transpile local packages** with Next.js on-demand + HMR
 
 My approach completely changed after a couple of projects, I realised the previous approach of having common configuration files was a bad practice:
