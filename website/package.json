@@ -12,19 +12,19 @@
     "test:lint": "next lint"
   },
   "dependencies": {
-    "next": "11.0.1",
+    "next": "12.0.1",
     "next-transpile-modules": "8.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "shared": "1.0.0"
   },
   "devDependencies": {
-    "@types/jest": "26.0.23",
+    "@types/jest": "27.0.2",
     "@types/next": "9.0.0",
-    "@types/react": "17.0.11",
-    "eslint": "^7.29.0",
-    "eslint-config-next": "^11.0.1",
-    "jest": "27.0.5",
-    "typescript": "4.3.4"
+    "@types/react": "17.0.33",
+    "eslint": "7.32.0",
+    "eslint-config-next": "^12.0.1",
+    "jest": "27.3.1",
+    "typescript": "4.4.4"
   }
 }

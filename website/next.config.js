@@ -1,5 +1,3 @@
-const withTM = require('next-transpile-modules')(['shared']);
+const withTM = require('next-transpile-modules.js')(['shared']);
 
-module.exports = withTM({
-    webpack5: true,
-});
+module.exports = withTM({});
