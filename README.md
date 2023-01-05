@@ -43,6 +43,8 @@ Put everything you want there, a Next app, shared code, a react-native app, a CR
 
 ### Next.js and local modules
 
-Next.js will transpile modules thanks to the [`next-transpile-modules`](https://github.com/martpie/next-transpile-modules) package. Transpiled modules can be changed by editing the `transpileModules` option in `website/next.config.js`.
+~~Next.js will transpile modules thanks to the [`next-transpile-modules`](https://github.com/martpie/next-transpile-modules) package. Transpiled modules can be changed by editing the `transpileModules` option in `website/next.config.js`.~~
+
+Since Next.js 13.1, we can now use `next.config.js`'s `transpilePackages` option to achieve the same.
 
 This setup works thanks to npm symlinking local dependencies in `website/`'s `node_modules` folder. Yarn workspaces would work as well (though requiring some adaptation from this bolerplate).
